@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="QqH-3R-G77">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="QqH-3R-G77">
                                 <rect key="frame" x="42" y="188" width="290" height="290"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="QqH-3R-G77" secondAttribute="bottom" constant="189" id="8hS-JN-005"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="QqH-3R-G77" secondAttribute="trailing" constant="43" id="iOi-6S-KN6"/>
+                            <constraint firstItem="QqH-3R-G77" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="188" id="pTh-zH-hTQ"/>
+                            <constraint firstItem="QqH-3R-G77" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="42" id="plM-pc-SUG"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
