@@ -1,4 +1,4 @@
-# Project 3 - *Twitter_iOS_Mock*
+# Project 3 - *Twitter App*
 
 **Name of your app** is a basic twitter app to read your tweets.
 
