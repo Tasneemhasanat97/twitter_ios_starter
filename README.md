@@ -23,9 +23,9 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-App Demonstration:
+##App Demonstration:
 <img src="http://g.recordit.co/KC0dbX8yob.gif" width=250><br>
-App User Login
+##App User Login
 <img src="http://g.recordit.co/yZtMq8kTyo.gif" width=250><br>
-Pull to refresh && Infinite Scroll feature
+##Pull to refresh && Infinite Scroll feature
 <img src="http://g.recordit.co/dYkNhfkQif.gif" width=250><br>
