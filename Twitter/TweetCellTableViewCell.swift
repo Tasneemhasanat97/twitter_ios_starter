@@ -19,7 +19,7 @@ class TweetCellTableViewCell: UITableViewCell {
     
     var favorited:Bool = false
     var tweetId:Int = -1
-    var retweeted:Bool = false
+    //var retweeted:Bool = false
     
     
     @IBAction func favoriteTweet(_ sender: Any) {
@@ -49,7 +49,7 @@ class TweetCellTableViewCell: UITableViewCell {
     
     
     func setRetweeted(_ isRetweeted:Bool) {
-        if(retweeted) {
+        if(isRetweeted) {
             retweetButton.setImage(UIImage(named: "retweet-icon-green"), for: UIControl.State.normal)
             retweetButton.isEnabled = false
         } else {
