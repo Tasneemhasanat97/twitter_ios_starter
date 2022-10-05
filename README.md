@@ -30,6 +30,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src="http://g.recordit.co/YV5c0RE3XZ.gif" width=250><br>
 <img src="http://g.recordit.co/cJKVWJcuGZ.gif" width=250><br>
+<img src="http://g.recordit.co/C1P4JENJKO.gif" width=250><br>
 
 ## User Stories
 
